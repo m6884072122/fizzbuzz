@@ -1,5 +1,10 @@
 <?php
 
   for ($i = 1; $i <= 100; $i++) {
-    echo $i . "<br />\n";
+    if ($i % 3 == 0) {
+      echo 'Fizz';
+    } else {
+      echo $i;
+    }
+    echo "<br />\n";
   }
