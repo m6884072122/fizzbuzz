@@ -7,6 +7,8 @@
       echo 'Fizz';
     } else if ($i % 5 == 0) {
       echo 'Buzz';
+    } else if ($i % 7 == 0) {
+      echo 'Git';
     } else {
       echo $i;
     }
